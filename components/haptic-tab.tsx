@@ -12,7 +12,7 @@ export function HapticTab(props: BottomTabBarButtonProps) {
           Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
         }
         props.onPressIn?.(ev);
-      }}
+      }}//
     />
   );
 }

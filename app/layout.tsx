@@ -12,4 +12,4 @@ export default function Layout() {
             <Stack.Screen name="details" options={{ title: "Assignment Details" }} />
         </Stack>
     );
-}
+}//

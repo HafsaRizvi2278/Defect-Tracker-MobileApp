@@ -4,7 +4,7 @@ import { collection, getDocs, query, where } from "firebase/firestore";
 import React, { useEffect, useState } from "react";
 import { ActivityIndicator, Alert, Button, StyleSheet, Text, View } from "react-native";
 import { db } from "../src/firebase";
-
+//
 export default function EmployeeDetailsScreen() {
     const { assignedCode, employeeId } = useLocalSearchParams();
     const [assignment, setAssignment] = useState(null);
